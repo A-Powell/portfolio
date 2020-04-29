@@ -1,0 +1,119 @@
+* {
+  color: white;
+}
+.top-flex {
+  text-align: left;
+}
+.carousel {
+  width: 40rem;
+}
+.header {
+  display: flex;
+  padding: 3rem;
+  background-color: black;
+}
+.bio {
+  width: 80%;
+  padding-top: 2rem;
+  font-style: italic;
+  font-size: 1.1rem;
+  margin-left: 3rem;
+}
+.bio > p:nth-child(1) {
+  text-indent: 2rem;
+}
+.bio > p:nth-child(2) {
+  text-indent: 2rem;
+}
+.bio > p:nth-child(3) {
+  text-indent: 2rem;
+}
+
+.header-c {
+  margin: 2rem;
+}
+.titleandtext {
+  padding: 4rem;
+  font-size: 1.3em;
+}
+
+/* Title */
+.title {
+  font-family: "Lobster", cursive;
+  font-size: 4rem;
+  text-align: center;
+  margin-left: -3rem;
+}
+
+/* Carousel Quote */
+.carousel-quote {
+  font-style: italic;
+  text-align: center;
+}
+.quote {
+  display: flex;
+  justify-content: space-evenly;
+  opacity: 0.3;
+  padding: 0.5rem;
+}
+/* Carousel links */
+.links {
+  font-size: 1.5rem;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin: 1rem;
+}
+.ii {
+  font-size: 2rem;
+}
+.iii {
+  font-size: 0.8rem;
+}
+
+
+
+
+@media (max-width: 1200px) {
+  .header {
+    flex-direction: column;
+  }
+  .carousel {
+    width: 100%;
+  }
+}
+@media (max-width: 800px) {
+  .header {
+    flex-direction: column;
+  }
+  .carousel {
+    width: 100%;
+  }
+}
+@media (max-width: 600px) {
+  .header {
+    flex-direction: column;
+  }
+  .carousel {
+    width: 100%;
+  }
+  .title{
+    font-size: 3.5rem;
+    margin: 0;
+  }
+}
+
+@media (max-width: 300px) {
+  .header {
+    flex-direction: column;
+    padding: 0;
+  }
+  .carousel {
+    display: none;
+  }
+  .bio {
+    margin: 0 auto;
+  }
+  .quote {
+    display: none;
+  }
+}
