@@ -1,0 +1,41 @@
+/* NavBar */
+.nav-holder {
+  background-color: grey;
+  padding: 2rem;
+}
+.nav-links {
+  display: flex;
+  justify-content: space-evenly;
+}
+.nav-link {
+  background-color: black;
+  padding: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 0;
+  border-radius: 1rem;
+}
+.nav-link:hover {
+  opacity: 0.7;
+}
+
+@media (max-width: 300px) {
+  .nav-holder {
+    padding: 0;
+  }
+  .nav-links {
+    flex-direction: column;
+  }
+  .nav-link {
+    margin: 0.2rem;
+  }
+}
+@media (max-width: 600px) {
+  .nav-link {
+    margin: 0.2rem;
+  }
+}
+@media (max-width: 570px) {
+  .nav-links {
+    flex-direction: column;
+  }
+}
