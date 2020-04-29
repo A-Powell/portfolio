@@ -3,7 +3,7 @@ import "./styles.css";
 
 const Projects = () => {
   return (
-    <div className="projects-holder">
+    <div className="projects-holder" id="projects">
       <h3 className="projects-title"> - - - - - Projects - - - - -</h3>
       <div className="projects">
         <div className="project">

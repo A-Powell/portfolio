@@ -3,7 +3,7 @@ import "./styles.css";
 
 const Skills = () => {
   return (
-    <div className="skills-holder">
+    <div className="skills-holder" id="skills">
       <div>
         <h3 className="skills-title">- - - - - Skills - - - - -</h3>
       </div>
@@ -29,27 +29,22 @@ const Skills = () => {
           <h3> Node/Express </h3>
         </div>
         <div className="skill">
-          <i class="fas fa-mobile-alt" />
-          <h3> JSON</h3>
-
-        </div>
-        <div className="skill">
-          <i class="fas fa-mobile-alt" />
+          <i class="fa fa-database" />
           <h3> SQL</h3>
 
         </div>
         <div className="skill">
-          <i class="fas fa-mobile-alt" />
+          <i class="fa fa-coffee" />
           <h3> Java/Spring</h3>
 
         </div>
         <div className="skill">
-          <i class="fas fa-mobile-alt" />
+          <i class="fa fa-desktop" />
           <h3> Python</h3>
 
         </div>
         <div className="skill">
-          <i class="fas fa-mobile-alt" />
+          <i class="fa fa-flask" />
           <h3> CS</h3>
 
         </div>

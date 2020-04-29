@@ -4,8 +4,8 @@ import Carousel from "./Carousel";
 
 const Top = () => {
   return (
-    <div className="header">
-      <div className="top-flex">
+    <div className="header" id="about">
+      <div className="top-flex" >
         <h1 className="title"> - Austin Powell - </h1>
         <p className="bio">
           <p>

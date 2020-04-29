@@ -5,14 +5,14 @@ const Footer = () => {
   return (
     <div className="footer-holder">
       <div className="socials">
-        <div className="socialMedia">
+        <a href="https://github.com/A-Powell" className="socialMedia">
           <i class="fab fa-github q" />
           <p>Github</p>
-        </div>
-        <div className="socialMedia">
+        </a>
+        <a href="https://www.linkedin.com/in/apowellfsw/" className="socialMedia">
           <i class="fab fa-linkedin q" />
           <p>LinkedIn</p>
-        </div>
+        </a>
       </div>
       <div className="copy">
         <copyright>
