@@ -13,12 +13,15 @@
 }
 .project {
   background-color: grey;
+  word-wrap: normal;
   padding: 2rem;
   width: 21rem;
   text-align: center;
   margin: 1rem;
   border-radius: 0.3rem;
+  overflow: hidden;
 }
+
 .projects-title {
   font-size: 3rem;
   padding: 2rem;
