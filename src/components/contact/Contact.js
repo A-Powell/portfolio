@@ -26,7 +26,7 @@ const Contact = () => {
             message: form.message
         }
 
-        axios.post('API_URL', data)
+        axios.post('https://immense-earth-04678.herokuapp.com/api/v1', data)
             .then(res => {
                 setForm({ sent: true }, resetForm())
             })
@@ -35,6 +35,12 @@ const Contact = () => {
             })
 
     }
+
+    const handleChanges = (e) => {
+        setForm({ ...form, [e.target.name]: e.target.value })
+        console.log(form)
+    }
+
     return (
         <div className="container">
             <h1>Contact me</h1>
@@ -54,14 +60,14 @@ const Contact = () => {
                                 <div className="col-md-6">
                                     <div className="form-group">
                                         <label for="form_name">First Name *</label>
-                                        <input id="form_name" type="text" name="name" className="form-control" onChange={e => setForm({ name: e.target.value })} value={form.name} placeholder="Please enter your First Name *" required="required" />
+                                        <input id="form_name" type="text" name="name" className="form-control" onChange={handleChanges} value={form.name} placeholder="Please enter your First Name *" required="required" />
 
                                     </div>
                                 </div>
                                 <div className="col-md-6">
                                     <div className="form-group">
                                         <label for="form_lastname">Last Name *</label>
-                                        <input id="form_lastname" type="text" name="surname" className="form-control" onChange={e => setForm({ surname: e.target.value })} value={form.surname} placeholder="Please enter your Last Name *" required="required" />
+                                        <input id="form_lastname" type="text" name="surname" className="form-control" onChange={handleChanges} value={form.surname} placeholder="Please enter your Last Name *" required="required" />
 
                                     </div>
                                 </div>
@@ -70,13 +76,13 @@ const Contact = () => {
                                 <div className="col-md-6">
                                     <div className="form-group">
                                         <label for="form_email">Email *</label>
-                                        <input id="form_email" type="email" name="email" className="form-control" onChange={e => setForm({ email: e.target.value })} value={form.email} placeholder="Please enter your email *" required="required" />
+                                        <input id="form_email" type="email" name="email" className="form-control" onChange={handleChanges} value={form.email} placeholder="Please enter your email *" required="required" />
                                     </div>
                                 </div>
                                 <div className="col-md-6">
                                     <div className="form-group">
                                         <label for="form_phone">Phone</label>
-                                        <input id="form_phone" type="tel" name="phone" className="form-control" onChange={e => setForm({ phone: e.target.value })} value={form.phone} placeholder="Please enter your phone" />
+                                        <input id="form_phone" type="tel" name="phone" className="form-control" onChange={handleChanges} value={form.phone} placeholder="Please enter your phone" />
 
                                     </div>
                                 </div>
@@ -85,7 +91,7 @@ const Contact = () => {
                                 <div className="col-md-12">
                                     <div className="form-group">
                                         <label for="form_message">Message *</label>
-                                        <textarea id="form_message" name="message" className="form-control" value={form.message} placeholder="Message for me *" rows="4" required onChange={e => setForm({ message: e.target.value })}></textarea>
+                                        <textarea id="form_message" name="message" className="form-control" value={form.message} placeholder="Message for me *" rows="4" required onChange={handleChanges}></textarea>
 
                                     </div>
                                 </div>
