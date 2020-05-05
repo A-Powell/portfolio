@@ -10,3 +10,9 @@ body {
 .col-md-12 {
     text-align: center;
 }
+
+.container {
+    margin-bottom: 2rem;
+    border-top: 1px solid gray;
+    padding-top: 1rem;
+}

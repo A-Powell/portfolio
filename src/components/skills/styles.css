@@ -5,8 +5,11 @@
 }
 .skills {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   padding: 2rem;
+  flex-wrap: wrap;
+  width: 60%;
+  margin-left: 20rem;
 }
 .skill {
   background-color: black;
@@ -34,11 +37,13 @@ i {
   }
   .skills {
     flex-wrap: wrap;
+    margin-left: 12rem;
   }
 }
 @media (max-width: 800px) {
   .skills {
     flex-wrap: wrap;
+    margin-left: 6rem;
   }
   .skill {
     margin: 1rem;
