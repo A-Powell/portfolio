@@ -26,7 +26,7 @@ const Contact = () => {
             message: form.message
         }
 
-        axios.post('API_URL', data)
+        axios.post('localhost:4444/api/v1', data)
             .then(res => {
                 setForm({ sent: true }, resetForm())
             })
