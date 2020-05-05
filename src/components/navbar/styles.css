@@ -1,6 +1,6 @@
 /* NavBar */
 .nav-holder {
-  background-color: grey;
+  background-color: rgb(128,128,128);
   padding: 2rem;
 }
 .nav-links {
@@ -8,11 +8,11 @@
   justify-content: space-evenly;
 }
 .nav-link {
-  background-color: black;
+  background-color: rgb(46, 44, 44);
   padding: 2rem;
   padding-top: 1rem;
   padding-bottom: 0;
-  border-radius: 1rem;
+  border-radius: 0.5rem;
 }
 .nav-link:hover {
   opacity: 0.7;

@@ -1,5 +1,8 @@
 import React from "react";
 import "./styles.css";
+import cryptomap from '../../images/cryptomaps.PNG'
+import hackathonPortal from '../../images/hackathonportal.PNG'
+import productqueue from '../../images/productqueue.PNG'
 
 const Projects = () => {
   return (
@@ -8,45 +11,45 @@ const Projects = () => {
       <div className="projects">
         <div className="project">
           <img
-            src="https://uploads.codesandbox.io/uploads/user/e710feef-8b3e-426f-8d96-9a3bfec5832e/iBKW-primary1.png"
+            src={hackathonPortal}
             alt="project"
           />
-          <h2>Title</h2>
+          <h2>Hackathon Portal</h2>
           <p>Project Desc</p>
-          <a className="links" href="">
+          <a className="links" href="https://github.com/Lambda-School-Labs/hackathon-portal-fe">
             <i class="fab fa-github ii" />
           </a>
-          <a className="links" href="">
+          <a className="links" href="https://www.hackathon-portal.tech/">
             <i class="fas fa-globe ii" />
           </a>
         </div>
 
         <div className="project">
           <img
-            src="https://uploads.codesandbox.io/uploads/user/e710feef-8b3e-426f-8d96-9a3bfec5832e/iBKW-primary1.png"
+            src={productqueue}
             alt="project"
           />
-          <h2>Title</h2>
+          <h2>Product Queue</h2>
           <p>Project Desc</p>
-          <a className="links" href="">
+          <a className="links" href="https://github.com/build-415-productqueue">
             <i class="fab fa-github ii" />
           </a>
-          <a className="links" href="">
+          <a className="links" href="https://pqlanding.netlify.app/">
             <i class="fas fa-globe ii" />
           </a>
         </div>
 
         <div className="project">
           <img
-            src="https://uploads.codesandbox.io/uploads/user/e710feef-8b3e-426f-8d96-9a3bfec5832e/iBKW-primary1.png"
+            src={cryptomap}
             alt="project"
           />
-          <h2>Title</h2>
+          <h2>Crypto Maps</h2>
           <p>Project Desc</p>
-          <a className="links" href="">
+          <a className="links" href="https://github.com/BwFT-CryptoMap/cryptomaps">
             <i class="fab fa-github ii" />
           </a>
-          <a className="links" href="">
+          <a className="links" href="https://cryptomap.netlify.app/">
             <i class="fas fa-globe ii" />
           </a>
         </div>

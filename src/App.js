@@ -5,6 +5,7 @@ import Skills from "./components/skills/Skills";
 import Projects from "./components/projects/Projects";
 import Footer from "./components/footer/Footer";
 import NavBar from "./components/navbar/NavBar";
+import Contact from "./components/contact/Contact"
 
 export default function App() {
   return (
@@ -13,6 +14,7 @@ export default function App() {
       <Top />
       <Skills />
       <Projects />
+      <Contact />
       <Footer />
     </div>
   );

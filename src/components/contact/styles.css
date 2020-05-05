@@ -1,0 +1,12 @@
+body {
+    background-color: black;
+}
+
+.row {
+    justify-content: center;
+    text-align: left;
+}
+
+.col-md-12 {
+    text-align: center;
+}

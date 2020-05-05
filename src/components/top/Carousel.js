@@ -1,7 +1,8 @@
 import React from "react";
-import primary1 from "../../images/primary1.png";
-import primary2 from "../../images/primary2.png";
-import primary3 from "../../images/primary3.png";
+import cryptomap from '../../images/cryptomaps.PNG'
+import hackathonPortal from '../../images/hackathonportal.PNG'
+import productqueue from '../../images/productqueue.PNG'
+
 
 const Carousel = () => {
   return (
@@ -22,49 +23,13 @@ const Carousel = () => {
         </ol>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img class="d-block w-100" src={primary1} alt="First slide" />
-            <div class="carousel-caption d-none d-md-block">
-              <b>
-                <h5>Project 1</h5>
-              </b>
-              <p>This is a Project I worked on.</p>
-              <a className="links" href="">
-                <i class="fab fa-github ii" />
-              </a>
-              <a className="links" href="">
-                <i class="fas fa-globe ii" />
-              </a>
-            </div>
+            <img class="d-block w-100" src={cryptomap} alt="First slide" />
           </div>
           <div class="carousel-item">
-            <img class="d-block w-100" src={primary2} alt="Second slide" />
-            <div class="carousel-caption d-none d-md-block">
-              <b>
-                <h5>Project 2</h5>
-              </b>
-              <p>This is a Project I worked on.</p>
-              <a className="links" href="">
-                <i class="fab fa-github ii" />
-              </a>
-              <a className="links" href="">
-                <i class="fas fa-globe ii" />
-              </a>
-            </div>
+            <img class="d-block w-100" src={hackathonPortal} alt="Second slide" />
           </div>
           <div class="carousel-item">
-            <img class="d-block w-100" src={primary3} alt="Third slide" />
-            <div class="carousel-caption d-none d-md-block">
-              <b>
-                <h5>Project 3</h5>
-              </b>
-              <p>This is a Project I worked on.</p>
-              <a className="links" href="">
-                <i class="fab fa-github ii" />
-              </a>
-              <a className="links" href="">
-                <i class="fas fa-globe ii" />
-              </a>
-            </div>
+            <img class="d-block w-100" src={productqueue} alt="Third slide" />
           </div>
         </div>
         <a
