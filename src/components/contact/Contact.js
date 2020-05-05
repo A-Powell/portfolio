@@ -26,7 +26,7 @@ const Contact = () => {
             message: form.message
         }
 
-        axios.post('localhost:4444/api/v1', data)
+        axios.post('https://immense-earth-04678.herokuapp.com/api/v1', data)
             .then(res => {
                 setForm({ sent: true }, resetForm())
             })
