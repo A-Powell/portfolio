@@ -9,7 +9,7 @@
   padding: 2rem;
   flex-wrap: wrap;
   width: 60%;
-  margin-left: 20rem;
+  margin-left: 23rem;
 }
 .skill {
   background-color: black;
@@ -31,6 +31,12 @@ i {
   padding: 2rem;
 }
 
+
+@media (max-width: 1450px) {
+  .skills {
+    margin-left: 17rem;
+  }
+}
 @media (max-width: 1200px) {
   .skill {
     margin: 1rem;
@@ -43,7 +49,7 @@ i {
 @media (max-width: 800px) {
   .skills {
     flex-wrap: wrap;
-    margin-left: 6rem;
+    margin-left: 9rem;
   }
   .skill {
     margin: 1rem;
@@ -57,14 +63,20 @@ i {
     margin: 1rem;
   }
 }
-@media (max-width: 400px) {
+@media (max-width: 450px) {
   .skills-title {
     font-size: 2.2rem;
+  }
+  .skills {
+    margin-left: 5rem;
   }
 }
 @media (max-width: 350px ){
   .skills-title{
     font-size: 1.9rem;
+  }
+  .skills {
+    margin-left: 3.7rem;
   }
 }
 @media (max-width: 300px) {

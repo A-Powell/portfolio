@@ -6,20 +6,34 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 .project > img {
-  width: 17rem;
-  height: 12rem;
+  width: 90%;
 }
 .project {
   background-color: grey;
   word-wrap: normal;
   padding: 2rem;
-  width: 21rem;
+  width: 30%;
   text-align: center;
   margin: 1rem;
   border-radius: 0.3rem;
-  overflow: hidden;
+  height: fit-content;
+}
+
+.cardBody {
+  text-align: left;
+}
+
+.AccBtn {
+  background-color: aqua;
+}
+
+.projecttoggle {
+  text-decoration: none;
+  color: black;
 }
 
 .projects-title {
