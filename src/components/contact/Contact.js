@@ -82,7 +82,7 @@ const Contact = () => {
                                 <div className="col-md-6">
                                     <div className="form-group">
                                         <label for="form_phone">Phone</label>
-                                        <input id="form_phone" type="tel" name="phone" className="form-control" onChange={handleChanges} value={form.phone} placeholder="Please enter your phone" />
+                                        <input id="form_phone" type="tel" name="phone" className="form-control" onChange={handleChanges} value={form.phone} placeholder="Please enter your phone number" />
 
                                     </div>
                                 </div>
